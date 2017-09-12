@@ -1,0 +1,118 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+	margin:0;
+	background: url("/DBMS_FE/Pictures/backgroundMain.jpg");
+	background-size:cover ;
+}
+
+
+.navtop{
+	height:50px;
+	width:100%;
+	background-color:black;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.navtop ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.navmain{
+	float:left;
+}
+.navlist{
+	float:right;
+}
+
+.navtop ul li{
+	display:inline-block;
+	list-style-type:none;
+	margin-right:20px;
+}
+
+.footbottom{
+	height:50px;
+	width:100%;
+	background-color:black;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:50px;
+}
+.footer-list{
+	float:right;
+}
+
+
+.jumbotron {
+  height: 500px;
+  background-image: url('/DBMS_FE/pictures/thomepage.jpg');
+  background-size: cover;
+  overflow:hidden;
+  color: #ffffff;
+}
+
+.para{
+	position:relative;
+	left: 400px;
+	top:12px;
+	font-family:cursive;
+	font-size:50px;
+	color:black;
+	-webkit-transform: rotate(352deg);
+	-moz-transform: rotate(352deg);
+	-o-transform: rotate(352deg);
+/*writing-mode: lr-tb;*/
+
+}
+.text-center{
+	font-family:"Trebuchet MS";
+	font-size:35px;
+	text-align:center;
+	color:#1050b7;
+}
+
+.row{
+	display:-webkit-flex;
+	display:flex;
+	height:200px;
+	margin:0 auto;
+	width:1300px;
+}
+
+.col-sm-4{
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	width:300px;
+	background-color:#FFFFFF;
+	color:#000000;
+	text-align:center;
+	line-height:30px;
+	height:180px;
+	margin:0 auto;
+	margin-top:10px;
+	border-radius:15px;
+}
+
+.btn1{
+	position: relative;
+	left: 750px;
+	bottom: 500px;
+	margin: 50px 50px 50px 50px;
+}
+
+.mainButton
+{
+	background-color:#43c62b;
+	border:none;
+	font-size:30px;
+	font-family:"Trebuchet MS";
+	text-align:center;
+	color:black;
+	cursor:pointer;
+	padding:15px 32px;
+	opacity:0.7;
+	border-radius:15px;
+}
